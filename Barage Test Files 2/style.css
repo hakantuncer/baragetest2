@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+}
+
+.left-sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  width: 300px;
+  background-color: aqua;
+}
+.left-header {
+  width: 70%;
+  height: 60px;
+  background-color: rgb(19, 19, 71);
+  margin-top: 30px;
+}
+.middle {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.middle-top {
+  height: 100px;
+  width: 100%;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+  align-items: center;
+}
+.middle-top span {
+  height: 60px;
+  width: 60px;
+  border-radius: 13px;
+  background-color: greenyellow;
+  margin-left: 30px;
+}
+.middle-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  height: 100%;
+}
+.conteiner {
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  height: 60%;
+}
+
+.conteiner input {
+  height: 50px;
+  width: 35%;
+  font-weight: bold;
+}
+
+.conteiner button {
+  height: 35px;
+  width: 20%;
+  background-color: rgb(177, 173, 173);
+}
+
+.middle-bottom span.avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: grey;
+}
+/*
+@media (max-width: 480px) {
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.middle-top {
+  width: 100%;
+  height: 100px;
+  background-color: blueviolet;
+  display: flex;
+  justify-items: flex-end;
+  align-items: center;
+}
+
+.middle-top span {
+  height: 60px;
+  width: 60px;
+  border-radius: 13px;
+  background-color: greenyellow;
+  margin-right: 30px;
+}
+
+.conteiner {
+  width: 100%;
+  height: 240px;
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.conteiner input {
+  height: 40px;
+  width: 60%;
+  font-weight: bold;
+}
+
+.conteiner button {
+  height: 35px;
+  width: 20%;
+  background-color: rgb(177, 173, 173);
+}
+*/
